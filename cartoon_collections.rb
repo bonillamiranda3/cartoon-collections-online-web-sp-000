@@ -6,11 +6,13 @@ def roll_call_dwarves(dwarves)
 end
 
 def summon_captain_planet(array)
-  array.map {|planet| "#{planet.capitalize}!"}
+    array.map {|planet| "#{planet.capitalize}!"}
+  end
 end
 
 def long_planeteer_calls
     array.any? {|word| word.length > 4 ? true : false}
+  end
 end
 
 def find_the_cheese(food)
